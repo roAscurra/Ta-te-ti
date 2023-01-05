@@ -1,0 +1,55 @@
+.celda{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px;
+    background:  #FD7558;
+    border-color: black;
+    font-family: 'Yeon Sung', cursive;
+    font-size: 90px;
+    color:#BD3012;
+    font-display: center;
+    text-align: center;
+    justify-content: center;
+    outline-style:solid;
+    outline-color:#BD3012;
+    outline-width: 5px;
+}
+.casilla{
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr;
+    margin: auto;
+    margin-top: 20px;
+    width: 300px;
+    border: #FFF;
+}
+header{
+    height: 70px;
+}
+body{
+    background-color:#BD3012;
+}
+h1{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Yeon Sung', cursive;
+    font-size: 60px;
+}
+button{
+    background-color: #FD7558;
+    width: 200px;
+    height: 30px;
+    border: #fff;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Yeon Sung', cursive;
+    cursor:pointer;
+    color: #FFF;
+    font-size: 20px;
+}
+h2{
+    color: #FFF;
+    text-align: center;
+    margin-top: 0px;
+}
